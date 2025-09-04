@@ -104,23 +104,23 @@ The eval script is very much cli-like and a bit adhoc. We provided it in [notebo
 #### QWen3
 
 The naive QWen3 is not performing well. It is actually not performing code completion at all sometimes. Hence, the results here are a bit random.
-![](results/pic1.png "QWen3 pass@k")
+![fig](results/pic1.png "QWen3 pass@k")
 Note that in a not-reported CoT trail, this QWen3 actually fails to generate any meaningful code when even a single prompt word is added. So we did not show its results.
 
 #### QWen2.5 Coder
 This is indeed good! Performance looks comparable with the baseline in [1] though the testing sets are different, but at least they are at the same level.
-![](results/pic2.png "QWen2.5 Coder pass@k")
+![fig](results/pic2.png "QWen2.5 Coder pass@k")
 
 #### QWen2.5 Coder + CoT
 Another failure case. Instruction-tuned small domain model may be not suitable to CoT-like hacks. We discuss this later in Sec. 4.2.
-![](results/pic3.png "QWen2.5 Coder + CoT pass@k")
+![fig](results/pic3.png "QWen2.5 Coder + CoT pass@k")
 
 #### Overall
 The performance trend w.r.t. sample size is reasonable and intuitive. It's like an analogy of 'having multiple trails of coding and expecting some will pass'.
 
 ### 3.2 Bset Temperature
 In our experiments, a high temperature is always welcomed. However, we have tested very limited numbers of generated samples. From the red line of QWen2.5 Coder, we expect the overall trend will be the same as  Fig. 5 of [1]. 
-![](results/pic4.png "temp")
+![fig](results/pic4.png "temp")
 
 ## 4 Possible Improvements
 
