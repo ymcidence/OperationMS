@@ -1,0 +1,7 @@
+jupyterlab==4.2.5
+tornado==6.2
+ipywidgets
+vllm
+pandas
+matplotlib
+langchain
