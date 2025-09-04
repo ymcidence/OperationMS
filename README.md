@@ -25,7 +25,7 @@ git clone https://github.com/openai/human-eval.git
 pip install -e human-eval
 ```
 ## 2 Inference
-The inference script is included in [notebook/run_inference.ipynb](notebook/run_inference.ipynb) using:
+The inference script is included in [run_inference.ipynb](run_inference.ipynb) using:
 * `Qwen/Qwen2.5-Coder-0.5B-Instruct`
 
 ### 2.1 Prompt
