@@ -61,7 +61,7 @@ As mentioned in the previous email, I still feel it being hard for a 0.5B model 
 This also accords what we have seen from the [HF bigcode-models-leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard). 
 The following screenshot from the leaderboard tells the level of model size in obtaining 0.5+ pass@1.
 
-![](results/hf.png)
+![fig](./results/hf.png)
 
 Of course, these models do not use a tailored prompt, but it seems to be hard to outperform models in the same realm with 10-20 times larger sizes only by prompt engineering.
 
